@@ -1,0 +1,145 @@
+*{
+    font-family:"poppins";
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+img{
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+
+}
+form{
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+.cont{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  justify-items: center;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+
+}
+body{
+  padding: 20px;
+}
+input{
+    padding: 20px 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+button{
+    padding: 20px;
+    margin: 0px 20px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: none;
+    transition: 0.3s ease;
+}
+
+button:hover{
+  background-color: rgb(43, 128, 226);
+  scale: 1.1;
+}
+
+h1{
+  text-transform: uppercase;
+  font-size: 45px;
+  text-align: center;
+
+}
+p,h2{
+  text-transform: uppercase;
+}
+.task{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;align-items: center;
+  justify-items: center;
+  margin: 20px 0; 
+  cursor: pointer;
+  
+  
+  
+}
+
+.task-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(228, 228, 228);
+  width: 100%;
+  padding: 50px 0;
+  border-radius: 30px;
+}
+
+.bg{
+  background-image: url(./clouds-2329680_1280.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;padding: 0;
+  background-position: center;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.479);
+  width: 100%;
+  padding: 50px 0;
+  margin: 0 auto;
+  border-radius: 50px;
+  max-width: 600px;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+
+.task-form{
+  display: flex;
+  justify-content: center;
+}
+
+.todo-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  background-color: rgba(233, 233, 233, 0.479);
+  margin:  0 auto;
+  padding: 50px 0;
+  border-radius: 30px;
+}
+.task{
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr 1fr;
+  justify-items: center;
+  justify-self: center;
+  text-align: center;
+}
+
+.task button{
+  background-color: red;
+}
+
+.task h2{
+  cursor: pointer;
+}
